@@ -881,12 +881,17 @@ h2 {
   font-weight: 500;
 }
 .about__text p {
-  text-indent: 30px;
   color: rgba(28, 28, 28, 1);
   text-align: justify;
   line-height: 1.3em;
   letter-spacing: 1.2;
   padding: 5px 0;
+}
+
+.about__image {
+  width: 40%;
+  float: right;
+  margin:  20px 30px;
 }
 
 .about__text li {
@@ -896,50 +901,48 @@ h2 {
 }
 
 .about__text ul {
-  padding: 20px 30px;
+  padding: 10px 0px 10px 20px;
 }
 
 @media (max-width: 679.97px) {
-  .about__text p {
+  .about__text {
     font-size: 1.2rem;
+  }
+  .about__image {
+    width: 100%;
+    float: none;
+    margin:  15px 0px;
+  }
+  .about__text ul {
+    padding: 5px 0px 5px 20px;
   }
 }
 
 /*-----------------------------------------------*/
 
-.services__problems_title {
+.services__problems {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.services__problems-title {
   color: #1c1c1c;
   font-size: 1.55rem;
   line-height: 1.1em;
   text-align: center;
   padding: 20px 0;
 }
-
-.services__problems {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.services__problems_image {
-  display: block;
+.services__problems-image {
+  float: right;
   width: 40%;
   margin: 5px;
-  background: url("../img/MyCollages.png") center / cover no-repeat;
-  border-radius: 10px;
 }
 
-.services__problems_question li {
+.services__problems-question li {
   color: rgba(28, 28, 28, 1);
   font-size: 1.4rem;
   line-height: 1.4em;
   letter-spacing: 1.1;
-}
-
-.services__problems_columns {
-  display: flex;
-  flex-direction: column;
-  padding: 0px 10px;
 }
 
 .services__problems_war {
@@ -978,27 +981,14 @@ h2 {
 }
 
 @media (max-width: 767.98px) {
-  .services__problems {
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-  }
-
   .services__problems_title {
     font-size: 1.4rem;
     padding: 15px 0;
   }
 
   .services__problems_image {
-    display: flex;
-    align-self: center;
-    width: 430px;
-    height: 300px;
-    margin-top: 20px;
-  }
-
-  .services__problems_columns {
     width: 100%;
+    margin: 5px;
   }
 }
 
@@ -1010,12 +1000,6 @@ h2 {
 
   .services__problems_title {
     font-size: 1.25rem;
-  }
-
-  .services__problems_image {
-    width: 280px;
-    height: 200px;
-    margin-top: 20px;
   }
 }
 
@@ -1393,15 +1377,11 @@ h2 {
 }
 
 .price__subtitle {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-align: justify;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   color: rgba(28, 28, 28, 0.8);
-  text-transform: lowercase;
-  width: 70%;
-  margin: 0px 5px 15px 5px;
+  width: 65%;
+  margin: 0px 5px 10px 5px;
 }
 
 .price__table {
@@ -1500,7 +1480,6 @@ tr th:last-child {
 .exc__item_text {
   max-width: 100%;
   padding-right: 10px;
-  text-indent: 20px;
   text-align: justify;
   color: rgba(28, 28, 28, 0.9);
   font-size: 1.1rem;
@@ -1513,7 +1492,6 @@ tr th:last-child {
   font-size: 1.4rem;
   line-height: 1em;
   margin: 0 0 10px 0;
-  padding-left: 20px;
 }
 
 @media (max-width: 859.98px) {
@@ -1952,4 +1930,29 @@ tr th:last-child {
   height: 25px;
   background: url("../img/lock.png") 0 0 no-repeat;
   background-size: 100%;
+}
+
+@media (max-width: 767.98px) {
+  .locks-model__list {
+    width: 100%;
+    max-height: 420px;
+  }
+  
+  .locks-model__item {
+    padding: 5px 20px 0px 15px;
+  }
+
+}
+
+@media (max-width: 479.98px) {
+  .locks-model__list {
+    width: 100%;
+    max-height: 100%;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .locks-model__item {
+    padding: 5px 20px 0px 15px;
+  }
 }
