@@ -184,7 +184,9 @@ h2 {
   background-size: 100%;
   margin-right: 5px;
 }
-
+.header__title-logo {
+  height: 60px;
+}
 .header__title-info {
   display: flex;
   flex-direction: column;
@@ -624,6 +626,10 @@ h2 {
     margin: 0px 5px 0px 0px;
   }
 
+  .header__title-logo {
+    height: 45px;
+  }
+  
   .header__title_name {
     font-size: 1.6rem;
     letter-spacing: 1;
