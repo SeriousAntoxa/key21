@@ -2726,10 +2726,3 @@ tr th:last-child {
   }
 
 }
-
-@media (max-width: 1023.98px) {
-  .phone-fixed {
-    bottom: 20px;
-    right: 20px;
-  }
-}
