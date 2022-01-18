@@ -2569,7 +2569,7 @@ tr th:last-child {
 
 .phone-fixed {
   position: fixed;
-  bottom: 30px;
+  bottom: 40px;
   right: 30px;
   width: 70px;
   height: 70px;
