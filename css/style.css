@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
   padding: 0;
@@ -79,7 +80,7 @@ h1, h2, h3, h3, h5, h6 {
 body, html {
   font-size: 16px;
   font-weight: 600;
-  font-family: Helvetica;
+  font-family: 'Roboto', sans-serif;
   color: #000000;
 }
 
@@ -1705,7 +1706,7 @@ table {
   box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.4), 0 5px 5px rgba(0, 0, 0, 0.30);
   margin-bottom: 17px;
   border-radius: 8px;
-  width: 70%;
+  min-width: 80%;
   font-size: 1.25rem;
   background: #fff;
   text-align: left;
@@ -2733,8 +2734,6 @@ tr th:last-child {
   text-align: center;
 }
 
-.reviews__main {}
-
 .reviews__items {
   width: 100%;
   display: -webkit-box;
@@ -2752,7 +2751,7 @@ tr th:last-child {
 .reviews__item {
   margin: 20px 0;
   width: 70%;
-  padding: 20px;
+  padding: 30px 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2771,8 +2770,8 @@ tr th:last-child {
 
 .reviews__foto {
   margin-bottom: 20px;
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
 }
 
 .reviews__image {
@@ -2782,6 +2781,8 @@ tr th:last-child {
 }
 
 .reviews__name {
+  font-size: 1.3rem;
+  line-height: 1.5em;
   margin-bottom: 5px;
 }
 
@@ -2790,5 +2791,32 @@ tr th:last-child {
 }
 
 .reviews__text {
-  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.3em;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+  color: #1c1c1c;
+}
+
+@media (max-width: 767.98px) {
+  .reviews__item {
+    width: 90%;
+    padding: 20px 30px;
+  }
+  .reviews__foto {
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  .reviews__text {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .reviews__item {
+    width: 100%;
+    padding: 10px 20px;
+  }
 }
