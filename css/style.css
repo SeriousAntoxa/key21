@@ -2467,6 +2467,10 @@ tr th:last-child {
   width: 100%;
 }
 
+.salePromo__title {
+  text-align: center;
+}
+
 .sales__title {
   text-align: center;
 }
