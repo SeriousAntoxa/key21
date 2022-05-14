@@ -53,19 +53,7 @@
   text-align: justify;
 }
 
-@media (max-width: 1023.98px) {
-  .sale-logo {
-    top: 55px;
-    right: 0px;
-  }
-}
-
 @media (max-width: 767.98px) {
-  .sale-logo {
-    top: 110px;
-    right: 10px;
-  }
-
   .sales__block {
     width: 100%;
     padding: 15px 15px;
@@ -87,12 +75,6 @@
 }
 
 @media (max-width: 479.98px) {
-  .sale-logo {
-    width: 85px;
-    height: 40px;
-    top: 90px;
-  }
-
   .sales__block {
     width: 100%;
     padding: 10px 10px;
