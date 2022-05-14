@@ -1,0 +1,255 @@
+.main-inf {
+  position: relative;
+}
+
+.main-inf__body {
+  width: 100%;
+  margin-top: 90px;
+  padding: 120px 5px 50px 5px;
+}
+
+.title__row {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.title__item {
+  font-size: 4.0rem;
+  line-height: 1.2em;
+  letter-spacing: 1.2;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90), 0 10px 10px rgba(0, 0, 0, 0.80);
+  margin-bottom: 10px;
+}
+
+.title__loc {
+  font-size: 2.5rem;
+  line-height: 1.2em;
+  letter-spacing: 1.1;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90), 0 10px 10px rgba(0, 0, 0, 0.80);
+}
+
+.title__list_items {
+  padding: 0 0 0 20px;
+}
+
+.title__list_items li {
+  color: #fff;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.4);
+  padding: 0 0 0 36px;
+  margin: 0 0 17px 0;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90), 0 10px 10px rgba(0, 0, 0, 0.80);
+  font-size: 1.6rem;
+  line-height: 1.3em;
+  letter-spacing: 1.2;
+  position: relative;
+}
+
+.title__list_items li::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+  left: -5px;
+  position: absolute;
+  background: url(../img/check.png) 0 3px no-repeat;
+  background-size: 100%;
+}
+
+.main-inf__phone_number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 30px 0 0 0;
+}
+
+.ust-zam_page {
+  background: url("../img/vskrytie-dverey-1.jpg") center / cover no-repeat;
+}
+
+.zamen-zam_page {
+  background: url("../img/ustanovka-zamkov.jpeg") center / cover no-repeat;
+}
+
+.vskr-dver_page {
+  background: url("../img/vskrytie-dverey-2..jpg") center / cover no-repeat;
+}
+
+.vskr-avto_page {
+  background: url("../img/vskrytie-avto-2.jpg") center / cover no-repeat;
+}
+
+.vskr-zam_page {
+  background: url("../img/vskrytie-dverey-7.jpg") center / cover no-repeat;
+}
+
+.zamen-lishin_page {
+  background: url("../img/zamena-lishinki5.jpg") center / cover no-repeat;
+}
+
+.main_page {
+  background: url("../img/vskrytie-dverey.jpg") center / cover no-repeat;
+}
+
+/*-----------------------------------------------*/
+
+.shine-button {
+  font-size: 1.6rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #fe6637;
+  border-radius: 8px;
+  color: #fe6637;
+  -webkit-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
+  background: #fff;
+}
+
+.shine-button:before {
+  content: "";
+  background: -o-linear-gradient(left, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .5)));
+  background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .5));
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -8px;
+  left: -75px;
+  -webkit-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+}
+
+.shine-button:hover {
+  background: #fe6637;
+  color: #fff;
+  bottom: 3px;
+  -webkit-box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
+  box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.30), 0 5px 5px rgba(0, 0, 0, 0.30);
+}
+
+.shine-button:hover:before {
+  left: 300px;
+  -webkit-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+/*-----------------------------------------------*/
+
+.main-inf__phone_number .shine-button {
+  background: #fe6637;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0.30);
+}
+
+@media (max-width: 1023.98px) {
+  .title__row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .main-inf__body {
+    margin-top: 0;
+    padding: 140px 5px 30px 5px;
+  }
+
+  .main-inf__phone_number {
+    padding: 20px 0px 0px 0px;
+  }
+
+  .title__list {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .main-inf__body {
+    margin-top: 0;
+    padding: 200px 5px 30px 5px;
+  }
+
+  .title__item {
+    font-size: 4rem;
+    line-height: 1.2em;
+  }
+
+  .title__loc {
+    font-size: 1.9rem;
+  }
+
+  .title__list li {
+    font-size: 1.4rem;
+  }
+
+  .main-inf__phone_number {
+    padding: 10px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 679.98px) {
+  .main-inf__body {
+    padding: 200px 5px 30px 5px;
+  }
+
+  .title__item {
+    font-size: 3.4rem;
+  }
+
+  .title__loc {
+    font-size: 1.9rem;
+  }
+
+}
+
+@media (max-width: 479.98px) {
+  .main-inf__body {
+    padding: 170px 5px 30px 5px;
+  }
+
+  .title__item {
+    font-size: 2.75rem;
+    line-height: 1.1em;
+  }
+
+  .title__loc {
+    font-size: 1.55rem;
+  }
+
+  .title__list li {
+    font-size: 1.2rem;
+  }
+
+  .shine-button {
+    font-size: 1.2rem;
+  }
+}
+
+/*-----------------------------------------------*/

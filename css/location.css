@@ -1,0 +1,89 @@
+.location__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.location__title {
+  text-align: center;
+}
+
+.location__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100%;
+  width: 95%;
+}
+
+.location__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  min-width: 25%;
+  padding: 5px;
+}
+
+.location__item_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  height: 30px;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.location__item_ico {
+  width: 25px;
+  height: 25px;
+  background: url("../img/pin.svg") 0 0 no-repeat;
+  background-size: 100%;
+}
+
+.location__item_title {
+  color: #1c1c1c;
+  font-size: 1.25rem;
+}
+
+.location__item_districts {
+  padding: 10px;
+  display: none;
+}
+
+.location__item_districts._vis {
+  display: block;
+}
+
+.location__item_districts p {
+  text-align: center;
+  color: rgba(28, 28, 28, 0.8);
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+/*-----------------------------------------------*/
