@@ -6,13 +6,14 @@
 @import url('./about.css');
 @import url('./services_problems.css');
 @import url('./services.css');
-@import url('./howWeWork.css');
 @import url('./description.css');
 @import url('./price.css');
 @import url('./gallery.css');
-@import url('./sale.css');
 @import url('./excellence.css');
-@import url('./reviews.css');
+@import url('./howWeWork.css');
+@import url('./sale.css');
 @import url('./location.css');
+@import url('./inst.css');
+@import url('./reviews.css');
 @import url('./animations.css');
 @import url('./footer.css');

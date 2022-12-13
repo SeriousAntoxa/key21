@@ -1,0 +1,48 @@
+.inst__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inst__info {
+    width: 70%;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(89, 159, 221);
+    border-radius: 5px;
+}
+
+.inst__desc {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inst__image {
+    padding: 5px;
+}
+
+.inst__desc-title {
+    font-size: 1.5rem;
+}
+.inst__desc-text {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+.inst-link img:hover {
+    border-radius: 15px;
+    box-shadow: 3px 5px 10px #000;
+    transform: scale(1.03);
+}
+
+@media (max-width: 767.98px) {
+    .inst__info {
+        width: 90%;
+        padding: 15px;
+    }
+}
