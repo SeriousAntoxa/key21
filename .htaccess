@@ -1,0 +1,2 @@
+RewriteCond %{REQUEST_URI} /index.html
+RewriteRule ^(.*)$ http://www.master-zamka.ru/ [R=301,L]
