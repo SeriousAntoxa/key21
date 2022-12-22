@@ -1,243 +1,243 @@
 .sale-logo {
-  position: absolute;
-  top: 100px;
-  right: 160px;
-  width: 100px;
-  height: 50px;
-  -webkit-transform: rotate(-20deg);
-  -ms-transform: rotate(-20deg);
-  transform: rotate(-20deg);
-  -webkit-transform-origin: top right;
-  -ms-transform-origin: top right;
-  transform-origin: top right;
-  -webkit-animation-name: sale;
-  animation-name: sale;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+    position: absolute;
+    top: 100px;
+    right: 160px;
+    width: 100px;
+    height: 50px;
+    -webkit-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-animation-name: sale;
+    animation-name: sale;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 @-webkit-keyframes sale {
-  0% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-  }
+    0% {
+        -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
 
-  50% {
-    -webkit-transform: rotate(-30deg) scale(0.9);
-    transform: rotate(-30deg) scale(0.9);
-  }
+    50% {
+        -webkit-transform: rotate(-30deg) scale(0.9);
+        transform: rotate(-30deg) scale(0.9);
+    }
 
-  100% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-  }
+    100% {
+        -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
 
 }
 
 @keyframes sale {
-  0% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-  }
+    0% {
+        -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
 
-  50% {
-    -webkit-transform: rotate(-30deg) scale(0.9);
-    transform: rotate(-30deg) scale(0.9);
-  }
+    50% {
+        -webkit-transform: rotate(-30deg) scale(0.9);
+        transform: rotate(-30deg) scale(0.9);
+    }
 
-  100% {
-    -webkit-transform: rotate(-20deg);
-    transform: rotate(-20deg);
-  }
+    100% {
+        -webkit-transform: rotate(-20deg);
+        transform: rotate(-20deg);
+    }
 
 }
 
 @media (max-width: 1023.98px) {
-  .sale-logo {
-    top: 55px;
-    right: 0px;
-  }
+    .sale-logo {
+        top: 55px;
+        right: 0px;
+    }
 }
 
 @media (max-width: 767.98px) {
-  .sale-logo {
-    top: 110px;
-    right: 10px;
-  }
+    .sale-logo {
+        top: 110px;
+        right: 10px;
+    }
 }
 
 @media (max-width: 479.98px) {
-  .sale-logo {
-    width: 85px;
-    height: 40px;
-    top: 90px;
-  }
+    .sale-logo {
+        width: 85px;
+        height: 40px;
+        top: 90px;
+    }
 }
 
 /*--------------------------------------------*/
 
 .phone-fixed {
-  position: fixed;
-  bottom: 40px;
-  right: 30px;
-  width: 70px;
-  height: 70px;
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    width: 70px;
+    height: 70px;
 }
 
 .phone-fixed__anim {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255, 51, 0);
-  border-radius: 50%;
-  z-index: 1;
-  opacity: 1;
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  transform: scale(1);
-  -webkit-animation-name: phone-anim;
-  animation-name: phone-anim;
-  -webkit-animation-duration: 1s;
-  animation-duration: 1s;
-  -webkit-transform-origin: center;
-  -ms-transform-origin: center;
-  transform-origin: center;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-direction: normal;
-  animation-direction: normal;
-}
-
-@-webkit-keyframes phone-anim {
-  0% {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50%;
+    z-index: 1;
+    opacity: 1;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(1);
-    opacity: 1;
-  }
+    -webkit-animation-name: phone-anim;
+    animation-name: phone-anim;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: normal;
+    animation-direction: normal;
+}
 
-  50% {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0.5;
-  }
+@-webkit-keyframes phone-anim {
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
 
-  100% {
-    -webkit-transform: scale(1.6);
-    -ms-transform: scale(1.6);
-    transform: scale(1.6);
-    opacity: 0;
-  }
+    50% {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        opacity: 0.5;
+    }
+
+    100% {
+        -webkit-transform: scale(1.6);
+        -ms-transform: scale(1.6);
+        transform: scale(1.6);
+        opacity: 0;
+    }
 
 }
 
 @keyframes phone-anim {
-  0% {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-  }
+    0% {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
 
-  50% {
-    -webkit-transform: scale(1.3);
-    -ms-transform: scale(1.3);
-    transform: scale(1.3);
-    opacity: 0.5;
-  }
+    50% {
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+        opacity: 0.5;
+    }
 
-  100% {
-    -webkit-transform: scale(1.6);
-    -ms-transform: scale(1.6);
-    transform: scale(1.6);
-    opacity: 0;
-  }
+    100% {
+        -webkit-transform: scale(1.6);
+        -ms-transform: scale(1.6);
+        transform: scale(1.6);
+        opacity: 0;
+    }
 
 }
 
 .phone-fixed__link {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(255, 51, 0);
-  border-radius: 50%;
-  z-index: 2;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-animation-name: phone-fix;
-  animation-name: phone-fix;
-  -webkit-animation-duration: 0.5s;
-  animation-duration: 0.5s;
-  -webkit-animation-timing-function: ease-in-out;
-  animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50%;
+    z-index: 2;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-animation-name: phone-fix;
+    animation-name: phone-fix;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
 }
 
 .phone-fixed__link::before {
-  content: '';
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  width: 70%;
-  height: 70%;
-  background: url("../img/telephone-call.png") 0 0 no-repeat;
-  background-size: 100%;
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 70%;
+    height: 70%;
+    background: url("../img/telephone-call.png") 0 0 no-repeat;
+    background-size: 100%;
 }
 
 .phone-fixed:hover .phone-fixed__link,
 .phone-fixed:hover .phone-fixed__anim {
-  -webkit-animation-name: none;
-  animation-name: none;
+    -webkit-animation-name: none;
+    animation-name: none;
 }
 
 @-webkit-keyframes phone-fix {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 
-  50% {
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
+    50% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
 
-  100% {
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
 
 }
 
 @keyframes phone-fix {
-  0% {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
 
-  50% {
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
+    50% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
 
-  100% {
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-  }
+    100% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg);
+    }
 
 }
 

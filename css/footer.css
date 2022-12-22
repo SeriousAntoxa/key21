@@ -1,251 +1,17 @@
 .footer {
-  display: block;
-  background-color: rgba(254, 102, 55, 1);
-  width: 100%;
-  margin-top: 20px;
-  padding: 20px 0px 10px 0px;
+    display: block;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    background-color: rgba(254, 102, 55);
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 .footer__item {
-  padding: 0 10px 15px;
+    padding: 0 10px 15px;
 }
 
 .footer__items {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-.footer__title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
-.footer__title_name {
-  font-size: 2.2rem;
-  letter-spacing: 1.1px;
-}
-
-.footer__title-info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-}
-
-.footer__info {
-  font-size: 1rem;
-  letter-spacing: 1.1px;
-}
-
-.footer__main-inf {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.footer__loc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-size: 1.2rem;
-  letter-spacing: 1.1px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  padding-bottom: 10px;
-}
-
-.footer__loc span {
-  margin-left: 8px;
-}
-
-.footer__loc_ico {
-  width: 25px;
-  height: 25px;
-  background: url("../img/location.svg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.footer__time {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  font-size: 18px;
-  letter-spacing: 1.1px;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.footer__time span {
-  margin-left: 8px;
-}
-
-.footer__time_ico {
-  width: 25px;
-  height: 25px;
-  background: url("../img/clock.svg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.footer__phone {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-
-.footer__phone_ico {
-  width: 35px;
-  height: 35px;
-  background: url("../img/phone-call.svg") 0 0 no-repeat;
-  background-size: 100%;
-}
-
-.footer__phone_block {
-  margin-left: 6px;
-}
-
-.footer__menu_link {
-  color: #1c1c1c;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-}
-
-.footer__menu_link:hover {
-  text-decoration: underline;
-}
-
-.footer__menu_list {
-  display: block;
-  text-align: center;
-}
-
-.footer__menu_list li {
-  margin-bottom: 15px;
-}
-
-.footer__menu_list li:last-child {
-  margin-bottom: 0px;
-}
-
-.footer__contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
-}
-
-.footer__phone a {
-  color: #1c1c1c;
-  font-size: 2.2rem;
-}
-
-.footer__ask {
-  text-align: center;
-  color: rgba(0, 0, 0, 0.8);
-  font-size: 1rem;
-  line-height: 1.2em;
-}
-
-@media (max-width: 859.98px) {
-  .footer__title_name {
-    font-size: 1.9rem;
-  }
-
-  .footer__info {
-    font-size: 0.9rem;
-  }
-
-  .footer__phone_ico {
-    width: 25px;
-    height: 25px;
-    background: url("../img/phone-call.svg") 0 0 no-repeat;
-    background-size: 100%;
-  }
-
-  .footer__phone_block {
-    margin-left: 6px;
-  }
-
-  .footer__phone a {
-    color: #1c1c1c;
-    font-size: 1.75rem;
-  }
-
-  .footer__ask {
-    color: rgba(0, 0, 0, 0.8);
-    font-size: 0.9rem;
-    line-height: 1.4em;
-  }
-
-  .footer__menu_list li {
-    margin-bottom: 10px;
-  }
-}
-
-@media (max-width: 767.98px) {
-
-  .footer__phone a {
-    font-size: 1.5rem;
-  }
-
-  .footer__phone {
-    padding: 10px 0;
-  }
-
-  .footer__ask {
-    font-size: 0.8rem;
-    line-height: 1.1em;
-  }
-}
-
-@media (max-width: 679.97px) {
-  .footer__items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -255,26 +21,261 @@
     flex-direction: row;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.footer__title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.footer__title_name {
+    font-size: 2.2rem;
+    letter-spacing: 1.1px;
+}
+
+.footer__title-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.footer__info {
+    font-size: 1rem;
+    letter-spacing: 1.1px;
+}
+
+.footer__main-inf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-  }
+}
 
-  .footer__contact {
-    width: 100%;
+.footer__loc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 1.2rem;
+    letter-spacing: 1.1px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
 
-    padding-bottom: 20px;
-  }
+.footer__loc span {
+    margin-left: 8px;
+}
 
-  .footer__phone {
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-  }
+.footer__loc_ico {
+    width: 25px;
+    height: 25px;
+    background: url("../img/location.svg") 0 0 no-repeat;
+    background-size: 100%;
+}
 
-  .footer__menu {
-    display: none;
-  }
+.footer__time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    font-size: 18px;
+    letter-spacing: 1.1px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer__time span {
+    margin-left: 8px;
+}
+
+.footer__time_ico {
+    width: 25px;
+    height: 25px;
+    background: url("../img/clock.svg") 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.footer__phone {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+.footer__phone_ico {
+    width: 35px;
+    height: 35px;
+    background: url("../img/phone-call.svg") 0 0 no-repeat;
+    background-size: 100%;
+}
+
+.footer__phone_block {
+    margin-left: 6px;
+}
+
+.footer__menu_link {
+    color: #1c1c1c;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.footer__menu_link:hover {
+    text-decoration: underline;
+}
+
+.footer__menu_list {
+    display: block;
+    text-align: center;
+}
+
+.footer__menu_list li {
+    margin-bottom: 15px;
+}
+
+.footer__menu_list li:last-child {
+    margin-bottom: 0px;
+}
+
+.footer__contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.footer__phone a {
+    color: #1c1c1c;
+    font-size: 2.2rem;
+}
+
+.footer__ask {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1rem;
+    line-height: 1.2em;
+}
+
+@media (max-width: 859.98px) {
+    .footer__title_name {
+        font-size: 1.9rem;
+    }
+
+    .footer__info {
+        font-size: 0.9rem;
+    }
+
+    .footer__phone_ico {
+        width: 25px;
+        height: 25px;
+        background: url("../img/phone-call.svg") 0 0 no-repeat;
+        background-size: 100%;
+    }
+
+    .footer__phone_block {
+        margin-left: 6px;
+    }
+
+    .footer__phone a {
+        color: #1c1c1c;
+        font-size: 1.75rem;
+    }
+
+    .footer__ask {
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 0.9rem;
+        line-height: 1.4em;
+    }
+
+    .footer__menu_list li {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .footer__phone a {
+        font-size: 1.5rem;
+    }
+
+    .footer__phone {
+        padding: 10px 0;
+    }
+
+    .footer__ask {
+        font-size: 0.8rem;
+        line-height: 1.1em;
+    }
+}
+
+@media (max-width: 679.97px) {
+    .footer__items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .footer__contact {
+        width: 100%;
+
+        padding-bottom: 20px;
+    }
+
+    .footer__phone {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
+    .footer__menu {
+        display: none;
+    }
 }
