@@ -59,6 +59,20 @@
     justify-content: center;
 }
 
+.services__link {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .services__items {
     margin: 10px 0;
 }
@@ -79,10 +93,10 @@
 }
 
 .services__body_f {
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 100%;
     border: 2px solid rgba(254, 102, 55, 0.8);
     border-radius: 8px;
     -webkit-box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.4), 0 5px 5px rgba(0, 0, 0, 0.30);
@@ -90,7 +104,7 @@
 }
 
 .services__body_f:hover {
-    border: 1px solid rgba(254, 102, 55, 0.8);
+    transform: scale(1.02);
 }
 
 .services__body_zam-lish {
@@ -119,13 +133,13 @@
 
 
 .services__body {
+    height: 50%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 5px;
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 0 0 5px 5px;
     -ms-flex-item-align: end;
     align-self: flex-end;
     -webkit-box-pack: center;
@@ -137,24 +151,28 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-}
-
-.services__body_title {
-    margin-top: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .services__body_title {
     text-align: center;
     color: #1c1c1c;
     font-size: 1.55rem;
-    line-height: 1.1em;
+}
+
+.services__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 1.3rem;
+    line-height: 1.2em;
 }
 
 .services__items_grid {
