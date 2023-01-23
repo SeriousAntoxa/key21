@@ -5,7 +5,7 @@
 .main-inf__body {
     width: 100%;
     margin-top: 90px;
-    padding: 120px 5px 50px 5px;
+    padding: 100px 5px 30px 5px;
 }
 
 .title__row {
@@ -70,7 +70,31 @@
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    padding: 30px 0 0 0;
+    margin-top: 20px;
+}
+
+.main-inf__promo {
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 0, 0.8);
+    border-radius: 10px;
+    padding: 15px 10px 15px 10px;
+}
+
+.main-inf__promo p{
+    padding: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .ust-zam_page {
@@ -179,8 +203,13 @@
         padding: 140px 5px 30px 5px;
     }
 
-    .main-inf__phone_number {
-        padding: 20px 0px 0px 0px;
+    .main-inf__promo {
+        width: 70%;
+        padding: 15px 10px 15px 10px;
+    }
+    
+    .main-inf__promo p{
+        font-size: 1.2rem;
     }
 
     .title__list {
@@ -206,10 +235,6 @@
     .title__list li {
         font-size: 1.3rem;
     }
-
-    .main-inf__phone_number {
-        padding: 10px 0px 0px 0px;
-    }
 }
 
 @media (max-width: 679.98px) {
@@ -225,6 +250,13 @@
         font-size: 1.9rem;
     }
 
+    .main-inf__promo {
+        width: 90%;
+    }
+    
+    .main-inf__promo p{
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 479.98px) {
