@@ -22,14 +22,14 @@
 }
 
 .title__item {
-    font-size: 3.7rem;
+    font-size: 3.5rem;
     line-height: 1.2em;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90), 0 10px 10px rgba(0, 0, 0, 0.80);
     margin-bottom: 10px;
 }
 
 .title__loc {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     line-height: 1.2em;
     letter-spacing: 1.1;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90), 0 10px 10px rgba(0, 0, 0, 0.80);
@@ -45,7 +45,7 @@
     padding: 0 0 0 36px;
     margin: 0 0 17px 0;
     text-shadow: 0 10px 20px rgba(0, 0, 0, 0.90), 0 10px 10px rgba(0, 0, 0, 0.80);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.3em;
     position: relative;
 }
@@ -123,6 +123,10 @@
 
 .main_page {
     background: url("../img/vskrytie-dverey.jpg") center / cover no-repeat;
+}
+
+.main-other {
+    padding-top: 10px;
 }
 
 /*-----------------------------------------------*/
@@ -265,12 +269,12 @@
     }
 
     .title__item {
-        font-size: 2rem;
+        font-size: 1.9rem;
         line-height: 1.2em;
     }
 
     .title__loc {
-        font-size: 1.55rem;
+        font-size: 1.5rem;
     }
 
     .title__list li {

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Служба вскрытия, замены и установки замков двери, авто в Москве Круглосуточно</title>
     <meta name="description"
-        content="Мастер-замкА - это сервис по вскрытию дверей, замков, автомобилей; замене старых замков; установки, врезки нового замка или личинки. Без повреждений! Круглосуточно! Недорого! Звоните +79773227250">
+        content="Мастер-замкА - служба вскрытия дверей, замков, автомобилей; замена замков; установка, врезка нового замка или личинки 24/7 без повреждений ОТ 500 руб! Звоните +7 (977) 322-72-50. Качество гарантируем!">
     <link rel="icon" href="./img/ico/logo-master-zamka-icon.ico" type="image/x-icon">
     <meta name="keywords"
         content="Замена замка, Вскрытие замка, Установка замка, Врезка замка, Вскрытие авто, Вскрытие входных дверей, Вскрытие металлических дверей, Замена личинки, Установка личинки, Замена замка в Москве, Вскрытие замка в Москве, Установка замка в Москве, Врезка замка в Москве, Вскрытие авто в Москве" />
@@ -72,7 +72,7 @@
 </head>
 
 <body>
-    <div class="wrapper" itemscope itemtype="https://schema.org/LocalBusiness">
+    <div class="wrapper" itemscope itemtype="https://schema.org/Organization">
         <div class="content">
             <header class="header">
                 <div class="container">
@@ -80,20 +80,20 @@
                         <div class="header__containerMain">
                             <div class="header__container_t-p">
                                 <div class="header__title">
-                                    <img class="header__title-logo" src="./img/ico/logo-master-zamka.png"
+                                    <img itemprop="logo" class="header__title-logo" src="./img/ico/logo-master-zamka.png"
                                         alt="logo-master-zamka">
                                 </div>
                                 <div class="header__loc-time">
                                     <div class="header__loc">
                                         <div class="header__loc_ico"></div>
-                                        <span itemprop="address">Москва и МО</span>
+                                        <span>Москва и МО</span>
                                     </div>
                                     <div class="header__time">
                                         <div class="header__time_ico"></div>
-                                        <time itemprop="openingHours" datetime="Mo-Su"> <span>24 / 7</span> </time>
+                                        <span>24 / 7</span>
                                     </div>
                                 </div>
-                                <div class="scss"></div>
+                                
                                 <div class="header__phone">
                                     <div class="header__phone_messengers">
                                         <div class="header__phone_messenger">
@@ -170,17 +170,17 @@
                 </div>
             </header>
 
-            <main id="main" class="page" itemscope itemtype="https://schema.org/Offer">
+            <main id="main" class="page">
                 <div class="main-inf">
                     <div class="main-inf__body main_page">
                         <div class="main-inf__content ">
                             <div class="container">
                                 <div class="title__row">
                                     <div class="title__main">
-                                        <h1 itemprop="name" class="title__item">Вскрытие, замена, установка входных
+                                        <h1 class="title__item" itemprop="description">Вскрытие, замена, установка входных
                                             замков и личинок на двери
                                             <br>
-                                            <span class="title__loc">
+                                            <span class="title__loc" itemprop="address">
                                                 в Москве и Московской области
                                             </span>
                                         </h1>
@@ -206,23 +206,23 @@
                     </div>
                 </div>
 
-                <div class="main-other">
+                <div class="main-other" >
 
-                    <section id="services" class="services block" itemprop="description">
+                    <section id="services" class="services block" itemprop="hasOfferCatalog" itemscope itemtype="https://schema.org/OfferCatalog">
                         <div class="container">
                             <h2 class="services__title title">Наши услуги</h2>
 
-                            <div class="services__items">
+                            <div class="services__items" itemprop="itemListElement" itemscope itemtype="https://schema.org/OfferCatalog">
                                 <div class="services__items_grid">
                                     <div class="services__item_grid">
-                                        <div class="services__item">
+                                        <div class="services__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
                                             <div class="services__body_zam-lish services__body_f">
-                                                <a href="./pages/zamena-lichinki.html" class="services__link">
+                                                <a href="./pages/zamena-lichinki.html" class="services__link" itemprop="sameAs">
                                                     <div class="services__body">
                                                         <div class="services__column">
-                                                            <h3 class="services__body_title">Замена личинки</h3>
+                                                            <h3 class="services__body_title" itemprop="name">Замена личинки</h3>
                                                             <div class="services__text">
-                                                                <p class="services__text_price">от 900 руб.</p>
+                                                                <p class="services__text_price" itemprop="price">от 500 руб.</p>
                                                                 <p class="services__text_desc">Подробнее...</p>
                                                                 <!--<div class="services__button">
                                                                 <a href="./pages/zamena-lichinki.html"
@@ -236,15 +236,15 @@
                                         </div>
                                     </div>
                                     <div class="services__item_grid">
-                                        <div class="services__item">
+                                        <div class="services__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
                                             <div class="services__body_yst-zam services__body_f">
-                                                <a href="./pages/ustanovka-zamka.html" class="services__link">
+                                                <a href="./pages/ustanovka-zamka.html" class="services__link" itemprop="sameAs">
                                                     <div class="services__body">
                                                         <div class="services__column">
-                                                            <h3 class="services__body_title">Установка и врезка замка
+                                                            <h3 class="services__body_title" itemprop="name">Установка и врезка замка
                                                             </h3>
                                                             <div class="services__text">
-                                                                <p class="services__text_price">от 900 руб.</p>
+                                                                <p class="services__text_price" itemprop="price">от 500 руб.</p>
                                                                 <p class="services__text_desc">Подробнее...</p>
                                                                 <!--<div class="services__button">
                                                                 <a href="./pages/ustanovka-zamka.html"
@@ -258,14 +258,14 @@
                                         </div>
                                     </div>
                                     <div class="services__item_grid">
-                                        <div class="services__item">
+                                        <div class="services__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
                                             <div class="services__body_vsk-dveri services__body_f">
-                                                <a href="./pages/vskrytiye-dverey.html" class="services__link">
+                                                <a href="./pages/vskrytiye-dverey.html" class="services__link" itemprop="sameAs">
                                                     <div class="services__body">
                                                         <div class="services__column">
-                                                            <h3 class="services__body_title">Вскрытие дверей</h3>
+                                                            <h3 class="services__body_title" itemprop="name">Вскрытие дверей</h3>
                                                             <div class="services__text">
-                                                                <p class="services__text_price">от 1000 руб.</p>
+                                                                <p class="services__text_price" itemprop="price">от 550 руб.</p>
                                                                 <p class="services__text_desc">Подробнее...</p>
                                                                 <!--<div class="services__button">
                                                                 <a href="./pages/vskrytiye-dverey.html"
@@ -279,14 +279,14 @@
                                         </div>
                                     </div>
                                     <div class="services__item_grid">
-                                        <div class="services__item">
+                                        <div class="services__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
                                             <div class="services__body_vsk-auto services__body_f">
-                                                <a href="./pages/vskrytiye-avto.html" class="services__link">
+                                                <a href="./pages/vskrytiye-avto.html" class="services__link" itemprop="sameAs">
                                                     <div class="services__body">
                                                         <div class="services__column">
-                                                            <h3 class="services__body_title">Вскрытие авто</h3>
+                                                            <h3 class="services__body_title" itemprop="name">Вскрытие авто</h3>
                                                             <div class="services__text">
-                                                                <p class="services__text_price">от 1000 руб.</p>
+                                                                <p class="services__text_price" itemprop="price">от 550 руб.</p>
                                                                 <p class="services__text_desc">Подробнее...</p>
                                                                 <!--<div class="services__button">
                                                                 <a href="./pages/vskrytiye-avto.html"
@@ -300,14 +300,14 @@
                                         </div>
                                     </div>
                                     <div class="services__item_grid span-col-2">
-                                        <div class="services__item">
+                                        <div class="services__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
                                             <div class="services__body_zam-zam services__body_f">
-                                                <a href="./pages/zamena-zamka.html" class="services__link">
+                                                <a href="./pages/zamena-zamka.html" class="services__link" itemprop="sameAs">
                                                     <div class="services__body">
                                                         <div class="services__column">
-                                                            <h3 class="services__body_title">Замена замка</h3>
+                                                            <h3 class="services__body_title" itemprop="name">Замена замка</h3>
                                                             <div class="services__text">
-                                                                <p class="services__text_price">от 900 руб.</p>
+                                                                <p class="services__text_price" itemprop="price">от 500 руб.</p>
                                                                 <p class="services__text_desc">Подробнее...</p>
                                                                 <!--<div class="services__button">
                                                                 <a href="./pages/zamena-zamka.html"
@@ -321,14 +321,14 @@
                                         </div>
                                     </div>
                                     <div class="services__item_grid span-col-2">
-                                        <div class="services__item">
+                                        <div class="services__item" itemprop="itemListElement" itemscope itemtype="https://schema.org/Offer">
                                             <div class="services__body_vsk-zam services__body_f">
-                                                <a href="./pages/vskrytiye-zamka.html" class="services__link">
+                                                <a href="./pages/vskrytiye-zamka.html" class="services__link" itemprop="sameAs">
                                                     <div class="services__body">
                                                         <div class="services__column">
-                                                            <h3 class="services__body_title">Вскрытие замка</h3>
+                                                            <h3 class="services__body_title" itemprop="name">Вскрытие замка</h3>
                                                             <div class="services__text">
-                                                                <p class="services__text_price">от 900 руб.</p>
+                                                                <p class="services__text_price" itemprop="price">от 500 руб.</p>
                                                                 <p class="services__text_desc">Подробнее...</p>
                                                                 <!--<div class="services__button">
                                                                 <a href="./pages/vskrytiye-zamka.html"
@@ -675,7 +675,7 @@
                         </div>
                     </section>
 
-                    <section class="location block">
+                    <section class="location block" itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
                         <div class="container">
                             <h2 class="location__title title">Мы работаем во всех округах Москвы и в Подмосковье </h2>
 
@@ -685,245 +685,245 @@
                                     <div id="Cao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Центральный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Центральный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Арбат</p>
-                                            <p>Басманный</p>
-                                            <p>Замоскворечье</p>
-                                            <p>Красносельский</p>
-                                            <p>Мещанский</p>
-                                            <p>Пресненский</p>
-                                            <p>Таганский</p>
-                                            <p>Тверской</p>
-                                            <p>Хамовники</p>
-                                            <p>Якиманка</p>
+                                            <p itemprop="addressLocality">Арбат</p>
+                                            <p itemprop="addressLocality">Басманный</p>
+                                            <p itemprop="addressLocality">Замоскворечье</p>
+                                            <p itemprop="addressLocality">Красносельский</p>
+                                            <p itemprop="addressLocality">Мещанский</p>
+                                            <p itemprop="addressLocality">Пресненский</p>
+                                            <p itemprop="addressLocality">Таганский</p>
+                                            <p itemprop="addressLocality">Тверской</p>
+                                            <p itemprop="addressLocality">Хамовники</p>
+                                            <p itemprop="addressLocality">Якиманка</p>
                                         </div>
                                     </div>
 
                                     <div id="Nao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Северный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Северный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Аэропорт</p>
-                                            <p>Беговой</p>
-                                            <p>Бескудниковский</p>
-                                            <p>Войковский</p>
-                                            <p>Головинский</p>
-                                            <p>Дегунино Восточное</p>
-                                            <p>Дегунино Западное</p>
-                                            <p>Дмитровский</p>
-                                            <p>Коптево</p>
-                                            <p>Левобережный</p>
-                                            <p>Молжаниновский</p>
-                                            <p>Савёловский</p>
-                                            <p>Сокол</p>
-                                            <p>Тимирязевский</p>
-                                            <p>Ховрино</p>
-                                            <p>Хорошёвский</p>
+                                            <p  itemprop="addressLocality">Аэропорт</p>
+                                            <p itemprop="addressLocality">Беговой</p>
+                                            <p itemprop="addressLocality">Бескудниковский</p>
+                                            <p itemprop="addressLocality">Войковский</p>
+                                            <p itemprop="addressLocality">Головинский</p>
+                                            <p itemprop="addressLocality">Дегунино Восточное</p>
+                                            <p itemprop="addressLocality">Дегунино Западное</p>
+                                            <p itemprop="addressLocality">Дмитровский</p>
+                                            <p itemprop="addressLocality">Коптево</p>
+                                            <p itemprop="addressLocality">Левобережный</p>
+                                            <p itemprop="addressLocality">Молжаниновский</p>
+                                            <p itemprop="addressLocality">Савёловский</p>
+                                            <p itemprop="addressLocality">Сокол</p>
+                                            <p itemprop="addressLocality">Тимирязевский</p>
+                                            <p itemprop="addressLocality">Ховрино</p>
+                                            <p itemprop="addressLocality">Хорошёвский</p>
                                         </div>
                                     </div>
 
                                     <div id="NEao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Северо-Восточный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Северо-Восточный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Алексеевский</p>
-                                            <p>Алтуфьевский</p>
-                                            <p>Бабушкинский</p>
-                                            <p>Бибирево</p>
-                                            <p>Бутырский</p>
-                                            <p>Лианозово</p>
-                                            <p>Лосиноостровский</p>
-                                            <p>Марфино</p>
-                                            <p>Марьина роща</p>
-                                            <p>Медведково Северное</p>
-                                            <p>Медведково Южное</p>
-                                            <p>Останкинский</p>
-                                            <p>Отрадное</p>
-                                            <p>Ростокино</p>
-                                            <p>Свиблово</p>
-                                            <p>Северный</p>
-                                            <p>Ярославский</p>
+                                            <p itemprop="addressLocality">Алексеевский</p>
+                                            <p itemprop="addressLocality">Алтуфьевский</p>
+                                            <p itemprop="addressLocality">Бабушкинский</p>
+                                            <p itemprop="addressLocality">Бибирево</p>
+                                            <p itemprop="addressLocality">Бутырский</p>
+                                            <p itemprop="addressLocality">Лианозово</p>
+                                            <p itemprop="addressLocality">Лосиноостровский</p>
+                                            <p itemprop="addressLocality">Марфино</p>
+                                            <p itemprop="addressLocality">Марьина роща</p>
+                                            <p itemprop="addressLocality">Медведково Северное</p>
+                                            <p itemprop="addressLocality">Медведково Южное</p>
+                                            <p itemprop="addressLocality">Останкинский</p>
+                                            <p itemprop="addressLocality">Отрадное</p>
+                                            <p itemprop="addressLocality">Ростокино</p>
+                                            <p itemprop="addressLocality">Свиблово</p>
+                                            <p itemprop="addressLocality">Северный</p>
+                                            <p itemprop="addressLocality">Ярославский</p>
                                         </div>
                                     </div>
 
                                     <div id="Eao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Восточный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Восточный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Богородское</p>
-                                            <p>Вешняки</p>
-                                            <p>Восточный</p>
-                                            <p>Гольяново</p>
-                                            <p>Ивановское</p>
-                                            <p>Измайлово Восточное</p>
-                                            <p>Измайлово</p>
-                                            <p>Измайлово Северное</p>
-                                            <p>Косино-Ухтомский</p>
-                                            <p>Метрогородок</p>
-                                            <p>Новогиреево</p>
-                                            <p>Новокосино</p>
-                                            <p>Перово</p>
-                                            <p>Преображенское</p>
-                                            <p>Соколиная гора</p>
-                                            <p>Сокольники</p>
+                                            <p itemprop="addressLocality">Богородское</p>
+                                            <p itemprop="addressLocality">Вешняки</p>
+                                            <p itemprop="addressLocality">Восточный</p>
+                                            <p itemprop="addressLocality">Гольяново</p>
+                                            <p itemprop="addressLocality">Ивановское</p>
+                                            <p itemprop="addressLocality">Измайлово Восточное</p>
+                                            <p itemprop="addressLocality">Измайлово</p>
+                                            <p itemprop="addressLocality">Измайлово Северное</p>
+                                            <p itemprop="addressLocality">Косино-Ухтомский</p>
+                                            <p itemprop="addressLocality">Метрогородок</p>
+                                            <p itemprop="addressLocality">Новогиреево</p>
+                                            <p itemprop="addressLocality">Новокосино</p>
+                                            <p itemprop="addressLocality">Перово</p>
+                                            <p itemprop="addressLocality">Преображенское</p>
+                                            <p itemprop="addressLocality">Соколиная гора</p>
+                                            <p itemprop="addressLocality">Сокольники</p>
                                         </div>
                                     </div>
 
                                     <div id="SEao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Юго-Восточный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Юго-Восточный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Выхино-Жулебино</p>
-                                            <p>Капотня</p>
-                                            <p>Кузьминки</p>
-                                            <p>Лефортово</p>
-                                            <p>Люблино</p>
-                                            <p>Марьино</p>
-                                            <p>Некрасовка</p>
-                                            <p>Нижегородский</p>
-                                            <p>Печатники</p>
-                                            <p>Рязанский</p>
-                                            <p>Текстильщики</p>
-                                            <p>Южнопортовый</p>
+                                            <p itemprop="addressLocality">Выхино-Жулебино</p>
+                                            <p itemprop="addressLocality">Капотня</p>
+                                            <p itemprop="addressLocality">Кузьминки</p>
+                                            <p itemprop="addressLocality">Лефортово</p>
+                                            <p itemprop="addressLocality">Люблино</p>
+                                            <p itemprop="addressLocality">Марьино</p>
+                                            <p itemprop="addressLocality">Некрасовка</p>
+                                            <p itemprop="addressLocality">Нижегородский</p>
+                                            <p itemprop="addressLocality">Печатники</p>
+                                            <p itemprop="addressLocality">Рязанский</p>
+                                            <p itemprop="addressLocality">Текстильщики</p>
+                                            <p itemprop="addressLocality">Южнопортовый</p>
                                         </div>
                                     </div>
 
                                     <div id="Sao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Южный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Южный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Бирюлёво Восточное</p>
-                                            <p>Бирюлёво Западное</p>
-                                            <p>Братеево</p>
-                                            <p>Даниловский</p>
-                                            <p>Донской</p>
-                                            <p>Зябликово</p>
-                                            <p>Москворечье-Сабурово</p>
-                                            <p>Нагатино-Садовники</p>
-                                            <p>Нагатинский затон</p>
-                                            <p>Нагорный</p>
-                                            <p>Орехово-Борисово Северное</p>
-                                            <p>Орехово-Борисово Южное</p>
-                                            <p>Царицыно</p>
-                                            <p>Чертаново Северное</p>
-                                            <p>Чертаново Центральное</p>
-                                            <p>Чертаново Южное</p>
+                                            <p itemprop="addressLocality">Бирюлёво Восточное</p>
+                                            <p itemprop="addressLocality">Бирюлёво Западное</p>
+                                            <p itemprop="addressLocality">Братеево</p>
+                                            <p itemprop="addressLocality">Даниловский</p>
+                                            <p itemprop="addressLocality">Донской</p>
+                                            <p itemprop="addressLocality">Зябликово</p>
+                                            <p itemprop="addressLocality">Москворечье-Сабурово</p>
+                                            <p itemprop="addressLocality">Нагатино-Садовники</p>
+                                            <p itemprop="addressLocality">Нагатинский затон</p>
+                                            <p itemprop="addressLocality">Нагорный</p>
+                                            <p itemprop="addressLocality">Орехово-Борисово Северное</p>
+                                            <p itemprop="addressLocality">Орехово-Борисово Южное</p>
+                                            <p itemprop="addressLocality">Царицыно</p>
+                                            <p itemprop="addressLocality">Чертаново Северное</p>
+                                            <p itemprop="addressLocality">Чертаново Центральное</p>
+                                            <p itemprop="addressLocality">Чертаново Южное</p>
                                         </div>
                                     </div>
 
                                     <div id="SWao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Юго-Западный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Юго-Западный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Академический</p>
-                                            <p>Бутово Северное</p>
-                                            <p>Бутово Южное</p>
-                                            <p>Гагаринский</p>
-                                            <p>Зюзино</p>
-                                            <p>Коньково</p>
-                                            <p>Котловка</p>
-                                            <p>Ломоносовский</p>
-                                            <p>Обручевский</p>
-                                            <p>Тёплый Стан</p>
-                                            <p>Черёмушки</p>
-                                            <p>Ясенево</p>
+                                            <p itemprop="addressLocality">Академический</p>
+                                            <p itemprop="addressLocality">Бутово Северное</p>
+                                            <p itemprop="addressLocality">Бутово Южное</p>
+                                            <p itemprop="addressLocality">Гагаринский</p>
+                                            <p itemprop="addressLocality">Зюзино</p>
+                                            <p itemprop="addressLocality">Коньково</p>
+                                            <p itemprop="addressLocality">Котловка</p>
+                                            <p itemprop="addressLocality">Ломоносовский</p>
+                                            <p itemprop="addressLocality">Обручевский</p>
+                                            <p itemprop="addressLocality">Тёплый Стан</p>
+                                            <p itemprop="addressLocality">Черёмушки</p>
+                                            <p itemprop="addressLocality">Ясенево</p>
                                         </div>
                                     </div>
 
                                     <div id="Wao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Западный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Западный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Внуково</p>
-                                            <p>Дорогомилово</p>
-                                            <p>Крылатское</p>
-                                            <p>Кунцево</p>
-                                            <p>Можайский</p>
-                                            <p>Ново-Переделкино</p>
-                                            <p>Очаково-Матвеевское</p>
-                                            <p>Проспект Вернадского</p>
-                                            <p>Раменки</p>
-                                            <p>Солнцево</p>
-                                            <p>Тропарёво-Никулино</p>
-                                            <p>Филёвский парк</p>
-                                            <p>Фили-Давыдково</p>
+                                            <p itemprop="addressLocality">Внуково</p>
+                                            <p itemprop="addressLocality">Дорогомилово</p>
+                                            <p itemprop="addressLocality">Крылатское</p>
+                                            <p itemprop="addressLocality">Кунцево</p>
+                                            <p itemprop="addressLocality">Можайский</p>
+                                            <p itemprop="addressLocality">Ново-Переделкино</p>
+                                            <p itemprop="addressLocality">Очаково-Матвеевское</p>
+                                            <p itemprop="addressLocality">Проспект Вернадского</p>
+                                            <p itemprop="addressLocality">Раменки</p>
+                                            <p itemprop="addressLocality">Солнцево</p>
+                                            <p itemprop="addressLocality">Тропарёво-Никулино</p>
+                                            <p itemprop="addressLocality">Филёвский парк</p>
+                                            <p itemprop="addressLocality">Фили-Давыдково</p>
                                         </div>
                                     </div>
 
                                     <div id="NWao" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Северо-Западный</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Северо-Западный</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Куркино</p>
-                                            <p>Митино</p>
-                                            <p>Покровское-Стрешнево</p>
-                                            <p>Строгино</p>
-                                            <p>Тушино Северное</p>
-                                            <p>Тушино Южное</p>
-                                            <p>Хорошёво-Мневники</p>
-                                            <p>Щукино</p>
+                                            <p itemprop="addressLocality">Куркино</p>
+                                            <p itemprop="addressLocality">Митино</p>
+                                            <p itemprop="addressLocality">Покровское-Стрешнево</p>
+                                            <p itemprop="addressLocality">Строгино</p>
+                                            <p itemprop="addressLocality">Тушино Северное</p>
+                                            <p itemprop="addressLocality">Тушино Южное</p>
+                                            <p itemprop="addressLocality">Хорошёво-Мневники</p>
+                                            <p itemprop="addressLocality">Щукино</p>
                                         </div>
                                     </div>
 
                                     <div id="Zel" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Зеленоградский</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Зеленоградский</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Крюково</p>
-                                            <p>Матушкино</p>
-                                            <p>Савёлки</p>
-                                            <p>Силино</p>
-                                            <p>Старое Крюково</p>
+                                            <p itemprop="addressLocality">Крюково</p>
+                                            <p itemprop="addressLocality">Матушкино</p>
+                                            <p itemprop="addressLocality">Савёлки</p>
+                                            <p itemprop="addressLocality">Силино</p>
+                                            <p itemprop="addressLocality">Старое Крюково</p>
                                         </div>
                                     </div>
 
                                     <div id="Pmc" class="location__item" onClick="reply_click(this.id)">
                                         <div class="location__item_body">
                                             <div class="location__item_ico"></div>
-                                            <h3 class="location__item_title">Подмосковья</h3>
+                                            <h3 class="location__item_title" itemprop="addressRegion">Подмосковья</h3>
                                         </div>
                                         <div class="location__item_districts">
 
-                                            <p>Одинцово</p>
-                                            <p>Красногорск</p>
-                                            <p>Химки</p>
-                                            <p>Мытищи</p>
-                                            <p>Люберцы</p>
-                                            <p>Реутов</p>
-                                            <p>Дзержинский</p>
-                                            <p>Долгопрудный</p>
-                                            <p>Балашиха</p>
-                                            <p>Пушкино</p>
+                                            <p itemprop="addressLocality">Одинцово</p>
+                                            <p itemprop="addressLocality">Красногорск</p>
+                                            <p itemprop="addressLocality">Химки</p>
+                                            <p itemprop="addressLocality">Мытищи</p>
+                                            <p itemprop="addressLocality">Люберцы</p>
+                                            <p itemprop="addressLocality">Реутов</p>
+                                            <p itemprop="addressLocality">Дзержинский</p>
+                                            <p itemprop="addressLocality">Долгопрудный</p>
+                                            <p itemprop="addressLocality">Балашиха</p>
+                                            <p itemprop="addressLocality">Пушкино</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1051,11 +1051,11 @@
                         <div class="footer__main-inf footer__item">
                             <div class="footer__loc">
                                 <div class="footer__loc_ico"></div>
-                                <span>Москва и МО</span>
+                                <span itemprop="location">Москва и МО</span>
                             </div>
                             <div class="footer__time">
                                 <div class="footer__time_ico"></div>
-                                <time itemprop="openingHours" datetime="Mo-Su"> <span>24 / 7</span> </time>
+                                <span>24 / 7</span>
                             </div>
                         </div>
                         <div class="footer__contact footer__item">

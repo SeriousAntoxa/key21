@@ -3,7 +3,7 @@
 }
 
 .services__shine-button {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-decoration: none;
     display: inline-block;
     padding: 5px 25px;
@@ -74,7 +74,7 @@
 }
 
 .services__items {
-    margin: 10px 0;
+    padding: 10px 0;
 }
 
 .services__item {
@@ -171,7 +171,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.2em;
 }
 
@@ -220,7 +220,7 @@
         display: grid;
         -ms-grid-columns: 1fr;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 20px;
+        grid-gap: 35px;
     }
 }
 
